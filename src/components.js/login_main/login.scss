@@ -1,0 +1,26 @@
+
+
+  .login-page-maincontainer{
+    .login-page-main-page-block1{
+        width: 100%;
+        height: 263px;
+        .log-in-image-img{
+          width: 100%;
+        }
+    }
+    .background-image-example {
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+  }
+
+  @media (max-width: 580px) {
+    .login-page-maincontainer{
+      .login-page-main-page-block1{
+          .log-in-image-img{
+            width: 100%;
+            height: 130px;
+          }
+      }
+  }
+}
